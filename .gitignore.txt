@@ -1,0 +1,7 @@
+.DS_Store
+Thunbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
