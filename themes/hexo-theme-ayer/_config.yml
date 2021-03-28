@@ -7,7 +7,7 @@ menu:
   旅行: /tags/旅行/
   摄影: /tags/摄影/
   友链: /friends
-  关于我: /2019/about
+  关于我: /about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -15,7 +15,7 @@ subtitle:
   enable: true # 是否开启动效
   text:  唯刀百辟，唯心不易 # 显示的文字
   text2: 年年有风 风吹年年 慢慢即漫漫 # 滚动播放，如果不需要可以留空
-  text3:  附庸风雅 # 最多支持三段文字
+  text3:  橙子最好吃 # 最多支持三段文字
   startDelay: 0 # 延迟时间
   typeSpeed: 200 # 打字速度
   loop: true # 是否循环
@@ -30,7 +30,7 @@ logo: /images/ayer-side.svg
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover2.jpg # /source/images目录下附送多张美图，可更换
+  path: /images/4.jpg # /source/images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条
@@ -84,9 +84,9 @@ reward_type: 0
 # 打赏wording
 reward_wording: "请我喝杯咖啡吧~"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/alipay.jpg
+alipay:
 # 微信二维码图片地址
-weixin: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/wechat.jpg
+weixin: 
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
@@ -127,7 +127,7 @@ github:
 
 # 网易云音乐插件
 music:
-  enable: ture
+  enable: false
   # 播放器尺寸类型(1：小尺寸、2：大尺寸)
   type: 1
   id: 22707008 # 网易云分享的音乐ID(更换音乐请更改此配置项)
